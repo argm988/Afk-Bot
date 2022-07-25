@@ -6,15 +6,15 @@
   },
 
   "server": {
-    "ip": "localhost",
-    "port": 25565,
-    "version": "1.17.1"
+    "ip": "game5.falixserver.net",
+    "port": 25702,
+    "version": "1.18.2"
   },
 
   "position": {
-    "enabled": false,
+    "enabled": true,
     "x": 0,
-    "y": 0,
+    "y": 3,
     "z": 0
   },
 
@@ -25,25 +25,25 @@
     },
 
     "anti-afk": {
-      "enabled": false,
-      "sneak": false
+      "enabled": true,
+      "sneak": true
     },
 
     "chat-messages": {
-      "enabled": false,
+      "enabled": true,
       "repeat": true,
-      "repeat-delay": 60,
+      "repeat-delay": 600,
 
       "messages": [
         "I'm a regular player ",
-        "My owner is urFate_ ",
+        "My owner is AgM ",
         "I want be alone ",
-        "Visit my GitHub page! (urFate/Afk-Bot)"
+        "Visit our page"
       ]
     },
 
     "chat-log": true,
-    "auto-reconnect": false,
-    "auto-reconnect-delay": 5000
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 2500
   }
 }
